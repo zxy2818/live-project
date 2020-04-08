@@ -1,7 +1,7 @@
 
 <?php
-
 //插入数据
+
 $id =$_POST['id'];
 $name =$_POST['name'];
 
@@ -13,4 +13,3 @@ $result = $mysql->query($query);
 echo $mysql->affected_rows;
 
 ?>
-
